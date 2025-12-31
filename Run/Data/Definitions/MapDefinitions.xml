@@ -1,0 +1,66 @@
+<Definitions>
+  <MapDefinition name="TestMap" image="Data/Maps/TestMap.png" shader="Data/Shaders/Diffuse" spriteSheetTexture="Data/Images/Terrain_8x8.png" spriteSheetCellCount="8,8">
+    <SpawnInfos>
+      <SpawnInfo actor="SpawnPoint" position="25.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" position="26.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" position="27.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" position="28.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" position="29.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint"  position="30.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="1.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="4.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="7.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="26.5,10.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="29.5,10.5,0.0" orientation="270.0,0.0,0.0" />
+    </SpawnInfos>
+  </MapDefinition>
+  <MapDefinition name="MPMap" image="Data/Maps/MPMap.png" shader="Data/Shaders/Diffuse" spriteSheetTexture="Data/Images/Terrain_8x8.png" spriteSheetCellCount="8,8">
+    <SpawnInfos>
+      <SpawnInfo actor="Demon" faction="Demon" position="15.0,7.0,0.0" />
+      <SpawnInfo actor="Demon" faction="Demon" position="20.0,15.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" faction="Marine" position="1.5,1.5,0.0" orientation="0.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" faction="Marine" position="1.5,30.5f,0.0" orientation="315.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" faction="Marine" position="30.5,30.5,0.0" orientation="225.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" faction="Marine" position="30.5,1.5,0.0" orientation="135.0,0.0,0.0" />
+    </SpawnInfos>
+  </MapDefinition>
+	<MapDefinition name="FieldMap" image="Data/Maps/FieldMap.png" shader="Data/Shaders/Diffuse" spriteSheetTexture="Data/Images/Terrain_8x8.png" spriteSheetCellCount="8,8">
+		<SpawnInfos>
+			<SpawnInfo actor="Demon" faction="Demon" position="15.0,7.0,0.0" />
+			<SpawnInfo actor="Demon" faction="Demon" position="16.0,7.0,0.0" />
+			<SpawnInfo actor="Demon" faction="Demon" position="17.0,7.0,0.0" />
+			<SpawnInfo actor="Imp"   faction="Demon" position="8.0,9.0,0.0"/>
+			<SpawnInfo actor="Cacodemon" faction="Demon" position="9.0,10.0,0.0"/>
+			<SpawnInfo actor="LostSoul" faction="Demon" position="5.0,5.0,0.5"/>
+			<SpawnInfo actor="EnemySpawner" faction="Demon" position="2.5,3.0,0.0"/>
+			<SpawnInfo actor="SpawnPoint" faction="Marine" position="1.5,1.5,0.0" orientation="0.0,0.0,0.0" />
+			<SpawnInfo actor="SpawnPoint" faction="Marine" position="2.5,1.5,0.0" orientation="0.0,0.0,0.0" />
+		</SpawnInfos>
+	</MapDefinition>
+	<MapDefinition name="DoomMap" image="Data/Maps/doomensteinGold.png" shader="Data/Shaders/Diffuse" spriteSheetTexture="Data/Images/Terrain_8x8.png" spriteSheetCellCount="8,8">
+		<SpawnInfos>
+			<SpawnInfo actor="Demon" faction="Demon" position="14.0,6.0,0.0" orientation="0.0,0.0,0.0"/>
+			<SpawnInfo actor="Demon" faction="Demon" position="44.0,55.0,0.0" orientation="180.0,0.0,0.0"/>
+			<SpawnInfo actor="Demon" faction="Demon" position="54.5,47.0,0.0" orientation="90.0,0.0,0.0"/>
+			<SpawnInfo actor="Imp" faction="Demon" position="27.0,40.0,0.0"/>
+			<SpawnInfo actor="Imp" faction="Demon" position="32.5,45.0,0.0" orientation="270.0,0.0,0.0"/>
+			<SpawnInfo actor="Cacodemon" faction="Demon" position="48.0,34.0,0.0"/>
+			<SpawnInfo actor="Cacodemon" faction="Demon" position="48.0,36.0,0.0"/>
+			<SpawnInfo actor="Cacodemon" faction="Demon" position="48.0,25.0,0.0"/>
+			<SpawnInfo actor="Cacodemon" faction="Demon" position="60.0,30.0,0.0" orientation="180.0,0.0,0.0"/>
+			<SpawnInfo actor="Cacodemon" faction="Demon" position="60.0,32.0,0.0" orientation="180.0,0.0,0.0"/>
+			<SpawnInfo actor="EnemySpawner" faction="Demon" position="18.0,15.0,0.0"/>
+			<SpawnInfo actor="EnemySpawner" faction="Demon" position="38.0,36.0,0.0"/>
+			<SpawnInfo actor="EnemySpawner" faction="Demon" position="55.0,10.0,0.0"/>
+			<SpawnInfo actor="EnemySpawner" faction="Demon" position="50.0,10.0,0.0"/>
+			<SpawnInfo actor="EnemySpawner" faction="Demon" position="45.0,10.0,0.0"/>
+			<SpawnInfo actor="LostSoul" faction="Demon" position="40.0,36.0,0.0" orientation="270.0,0.0,0.0"/>
+			<SpawnInfo actor="LostSoul" faction="Demon" position="36.0,36.0,0.0" orientation="270.0,0.0,0.0"/>
+			<SpawnInfo actor="LostSoul" faction="Demon" position="28.0,59.0,0.0" orientation="320.0,0.0,0.0"/>
+			<SpawnInfo actor="LostSoul" faction="Demon" position="56.0,20.0,0.0" orientation="90.0,0.0,0.0"/>
+			<SpawnInfo actor="LostSoul" faction="Demon" position="58.0,20.0,0.0" orientation="90.0,0.0,0.0"/>
+			<SpawnInfo actor="SpawnPoint" faction="Marine" position="5.5,5.5,0.0" orientation="0.0,0.0,0.0" />
+		</SpawnInfos>
+	</MapDefinition>
+</Definitions>
+
