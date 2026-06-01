@@ -3,6 +3,16 @@ A 2.5D First Person Shooter based off the Doom and Wolfenstein games combined. C
 -----------------------------------------------------------------------------------------------
 ![Runner Banner](https://github.com/jswilkinSMU/Doomenstein/blob/main/DoomensteinHeroImg.png)
 
+## Engine
+
+This project is powered by my custom game engine:
+
+- **WilkinEngine**: https://github.com/jswilkinSMU/WilkinEngine
+
+The engine handles rendering, input, audio, and asset management.
+
+---
+
 ### What was Implemented:
 	- Landscape and Shader changes: 
 		- Stormy clouds skybox
